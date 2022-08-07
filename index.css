@@ -1,0 +1,138 @@
+
+@media screen and (max-width:800px) {
+    html{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:800px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+/* body{
+    background:-webkit-linear-gradient(45deg,rgb(33,68,116),rgb(5,6,16));
+} */
+
+body .navbar-right{
+    width: 230px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 7.5px ;
+}
+body .nav-top {
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+.navbar-right form {
+    margin: 0;
+    padding: 0;
+}
+body .navbar-right form .form-control{
+   outline: none;
+   border: none;
+   border-radius: 20px;
+   background-color: rgba(0, 0, 0, 0);
+}
+.top{
+    margin-top: 20px;
+}
+/* .carousel{
+    border-radius:10px ;
+} */
+.item img{
+    width: 1920px;
+    height: 1080px;
+    /* border-radius:10px ; */
+}
+
+.tab-content h2{
+    color: #333;
+    font-weight: bold;
+}
+.tab-content h4{
+    color: #333;
+}
+.tab-content .pics{
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.data h2{
+    margin-bottom: 20px;
+}
+.tab-content img{
+    width: 400px;
+    /* margin-top: 80px; */
+    margin: 80px auto 0;
+    text-align: center;
+}
+.yuanshen .thumbnail{
+    width: 200px;
+    height: 420px;
+    max-width: 380px;
+    margin: 0 auto 20px;
+    /* max-height: 450px; */
+    background-color: rgba(219, 219, 219, 0.5);
+
+    box-shadow: 0 0 10px black;
+    border: none;
+}
+.yuanshen .thumbnail img{
+    width: 200px;
+    /* height: 190px; */
+}
+.yuanshen .thumbnail .duanwu{
+    color:#fff;
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.yuanshen .thumbnail p{
+    color: #fff;
+}
+
+.tiedao .thumbnail{
+    width: 300px;
+    margin: 10px auto;
+    border: none;
+}
+.tiedao .thumbnail img{
+    width: 400px;
+}
+.footer{
+    background-color: #181818;
+    width: 100%;
+    /* height: 200px; */
+}
+.footer {
+    margin-top: 70px;
+    padding: 30px 0;
+    /* border-top: 1px solid #eee; */
+}
+.footer h3{
+    color: #fff;
+}
+.footer img{
+    width: 100px;
+}
+.footer .container {
+    /* border-bottom: 1px solid #eee; */
+    padding-bottom: 15px;
+}
+
+.footer h4 {
+    color: #1199ec;
+}
+
+.footer a {
+    color: #f7f7f7;
+}
+.footer a:hover{
+    color: #fff;
+}
+.haidengjie{
+    height: 200px;
+    overflow: hidden;
+}
